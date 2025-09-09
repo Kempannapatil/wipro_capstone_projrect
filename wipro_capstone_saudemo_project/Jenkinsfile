@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/likhi-th123/SauceDemoAutomationProject.git'
+                git branch: 'main', url: 'https://github.com/Kempannapail/SauceDemoAutomationProject.git'
             }
         }
 
@@ -38,4 +38,5 @@ pipeline {
         }
     }
 }
+
 
